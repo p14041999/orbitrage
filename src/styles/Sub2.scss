@@ -1,0 +1,22 @@
+.sub2 {
+  padding: 20px 50px;
+  display: flex;
+  .sub2-child1 {
+  }
+  .sub2-child2 {
+    padding: 0px 60px;
+    text-align: end;
+    h1 {
+      font-family: Rubik;
+      font-size: 3.2rem;
+      font-weight: 400;
+      span {
+        font-weight: 600;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+      color: #575f6b;
+    }
+  }
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main />
+      <h3
+        style={{
+          textAlign: "center",
+          marginVertical: 50,
+          fontFamily: "Rubik",
+          fontWeight: 400,
+        }}
+      >
+        2021 All rights reserved by{" "}
+        <span style={{ fontWeight: 600 }}>ORBITRAGE</span>.finance
+      </h3>
     </div>
   );
 }

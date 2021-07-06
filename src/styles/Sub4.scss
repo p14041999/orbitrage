@@ -1,0 +1,99 @@
+.Sub4 {
+  h1 {
+    font-size: 3.2rem;
+
+    font-family: Rubik;
+    font-weight: 400;
+    text-align: center;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .teamCont {
+    display: flex;
+    justify-content: space-evenly;
+    .cardii {
+      display: inline-block;
+      // border: 2px solid yellow;
+      height: 350px;
+      padding: 20px;
+      .upperbox {
+        img {
+          margin: 45px 70px;
+        }
+        box-shadow: inset -0px -0px 7px rgba(94, 104, 121, 0.288),
+          3px 3px 7px rgba(94, 104, 121, 0.288);
+        border-radius: 20px;
+        background-color: #edeef2;
+        // border: 2px solid red;
+        width: 250px;
+        height: 250px;
+        position: relative;
+
+        .rightCir {
+          z-index: 12;
+          background-color: #edeef2;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          position: absolute;
+          right: -11px;
+          bottom: 5px;
+          box-shadow: inset 7px 0.2px 6.5px rgba(94, 104, 121, 0.288);
+        }
+        .leftCir {
+          background-color: #edeef2;
+          z-index: 12;
+          // border: 2px solid black;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          position: absolute;
+          left: -8px;
+          bottom: 5px;
+          box-shadow: inset -7px 0.2px 4.5px rgba(94, 104, 121, 0.288);
+          // box-shadow: inset 3px 3px 7px rgba(94, 104, 121, 0.288);
+        }
+        .lowerbox {
+          // box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.288),
+          // 3px 3px 7px rgba(94, 104, 121, 0.288);
+          box-shadow: inset -0px -0px 7px rgba(94, 104, 121, 0.288),
+            3px 3px 7px rgba(94, 104, 121, 0.288);
+          border-radius: 20px;
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          background-color: #edeef2;
+          // border: 2px solid green;
+          position: absolute;
+          bottom: -81px;
+          left: 0px;
+          height: 120px;
+          width: 250px;
+          hr {
+            border-top: 2px dashed #bcc2cc;
+            // position: absolute;
+            // bottom: 0;
+            z-index: 15;
+            position: relative;
+            top: 15px;
+            width: 14rem;
+            // background-size: 10px;
+          }
+          h2 {
+            text-align: center;
+            color: gray;
+            margin-top: 0;
+          }
+          h3 {
+            margin: 35px 10px 0px 10px;
+            text-align: center;
+            color: #c7cbd4;
+            font-family: Rubik;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

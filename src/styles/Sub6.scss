@@ -1,0 +1,32 @@
+.sub6 {
+  h1 {
+    text-align: center;
+    font-size: 3.2rem;
+    font-family: Rubik;
+  }
+  .cardeCont {
+    .carde {
+      border-radius: 30px;
+      padding: 0px 30px;
+      margin: 50px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .emage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: inset -4px -4px 7px white,
+          inset 4px 4px 5px rgba(94, 104, 121, 0.288);
+      }
+      .textee {
+        margin: 10px 30px;
+      }
+      display: flex;
+      // border: 2px solid red;
+    }
+  }
+}

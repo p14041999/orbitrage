@@ -1,0 +1,35 @@
+.sub1 {
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  padding: 70px 0px;
+  padding-left: 60px;
+  .sub1-child1 {
+    max-width: 40%;
+    font-family: Rubik;
+    padding: 0px 20px;
+    .sub1-btn {
+      margin: 30px 0px;
+      font-size: 1.4em;
+    }
+
+    h1 {
+      font-size: 3.4rem;
+      font-weight: 400;
+    }
+    p {
+      width: 90%;
+      color: #575f6b;
+      font-size: 1.2rem;
+    }
+
+    span {
+      font-weight: 700;
+    }
+  }
+  .sub1-child2 {
+    position: relative;
+    right: -14px;
+    top: -111px;
+  }
+}
