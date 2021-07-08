@@ -6,7 +6,7 @@ class Sub3 extends Component {
     return (
       <div className="Sub3">
         <h1 className="Sub3-head">
-          How <span>ORBITRAGE</span> Works
+          How <span>Orbit Edge</span> Works
         </h1>
         <div className="cardCont">
           <div className="card shadow c1">
@@ -16,8 +16,8 @@ class Sub3 extends Component {
             <div className="textCont">
               <h1>Monitoring</h1>
               <p>
-                Orbitrage bot constantly monitors price of a particular pair and
-                arbitrage opportunity in the form of direct opportunity,
+                Orbit Edge bot constantly monitors price of a particular pair
+                and arbitrage opportunity in the form of direct opportunity,
                 triangular arbritrage opportunity.
               </p>
             </div>
@@ -42,7 +42,7 @@ class Sub3 extends Component {
             <div className="textCont">
               <h1>Execute</h1>
               <p>
-                When orbtrage bot confirms that the opportunity is profitable
+                When Orbit Edge bot confirms that the opportunity is profitable
                 and have a profit of 0.001% at least then it executes smart
                 contract function with proper instruction like where to buy what
                 to buy and how much.
@@ -56,7 +56,7 @@ class Sub3 extends Component {
             <div className="textCont">
               <h1>Report</h1>
               <p>
-                Orbritrage bot constantly monitor and report its timing
+                Orbit Edge bot constantly monitor and report its timing
                 performance after every successfull execution. To help us
                 improve it overtime.
               </p>

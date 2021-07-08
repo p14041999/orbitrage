@@ -7,10 +7,10 @@ class sub1 extends Component {
       <div className="sub1">
         <div className="sub1-child1">
           <h1>
-            <span>ORBITRAGE</span> Makes Arbritrage Profitable
+            <span>Orbit Edge</span> Makes Arbritrage Profitable
           </h1>
           <p>
-            Orbitrage uses autobot and smart contract to make profit out of
+            Orbit Edge uses autobot and smart contract to make profit out of
             different exchanges price difference within few miliseconds. Our
             arbitrage bot is capable to find out price difference and execute a
             trade within 10ms.

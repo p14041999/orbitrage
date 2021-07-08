@@ -15,7 +15,7 @@ function App() {
         }}
       >
         2021 All rights reserved by{" "}
-        <span style={{ fontWeight: 600 }}>ORBITRAGE</span>.finance
+        <span style={{ fontWeight: 600 }}>Orbit Edge</span>.finance
       </h3>
     </div>
   );

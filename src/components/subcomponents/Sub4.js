@@ -10,7 +10,7 @@ class Sub4 extends Component {
     return (
       <div className="Sub4">
         <h1>
-          <span>ORBITRAGE</span> Team
+          <span>Orbit Edge</span> Team
         </h1>
         <div className="teamCont">
           <div className="cardii">
