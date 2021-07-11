@@ -1,0 +1,118 @@
+@media only screen and (max-width: 900px) {
+  // #root {
+  //   background-color: blue;
+  //   // border: 20px soild red !important;
+  // }
+  .App {
+    padding: 20px 0px 0px 30px;
+    // width: 141% !important;
+  }
+  .btn {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+
+  .header {
+    margin: 10px 5px;
+    padding: 0px 0px;
+    div {
+      // margin: 0px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 70%;
+      }
+    }
+    .bttn {
+      width: 30%;
+    }
+  }
+
+  .sub1 {
+    // position: relative;
+    flex-direction: column-reverse;
+    padding: 80px 0px !important;
+    .sub1-child1 {
+      width: 100% !important;
+      max-width: 100% !important;
+      .sub1-btn {
+        // padding: 20px 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 90%;
+        font-size: 1.1rem;
+      }
+    }
+    .sub1-child2 {
+      position: relative;
+      top: 20%;
+      right: -29%;
+
+      // right: 0;
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  .sub2 {
+    flex-direction: column;
+    padding: 80px 0px;
+    .sub2-child1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 90%;
+      }
+    }
+    .sub2-child2 {
+      padding: 0 10px;
+    }
+  }
+  .Sub3 {
+    padding: 80px 0px;
+    margin: 0px;
+    .Sub3-head {
+      margin: 0px;
+    }
+    .cardCont {
+      // justify-content: center;
+      padding: 0;
+      align-items: center;
+      .card {
+        width: 87%;
+        margin: 20px 0px;
+        .textCont {
+          padding: 10px 0px;
+          h1 {
+            font-size: 1.8rem;
+          }
+          p {
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .c1 {
+        position: initial;
+      }
+      .c2 {
+        position: initial;
+      }
+      .c3 {
+        position: initial;
+      }
+      .c4 {
+        position: initial;
+      }
+    }
+  }
+  .Sub4 {
+    padding: 80px 0px;
+  }
+  .teamCont {
+    flex-direction: column;
+    align-items: center;
+  }
+}
