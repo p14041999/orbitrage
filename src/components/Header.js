@@ -14,10 +14,7 @@ class header extends Component {
         <div>
           <img src={logo} />
         </div>
-        <a href="https://pool.orbitedge.finance"><button className="btn bttn">
-          Buy Now
-          <img style={{ marginLeft: 10 }} src={arrow} />
-        </button></a>
+        
       </div>
     );
   }
