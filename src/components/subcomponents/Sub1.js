@@ -16,13 +16,24 @@ class sub1 extends Component {
             arbitrage bot is capable to find out price difference and execute a
             trade within 10ms.
           </p>
-          <a href="https://pool.orbitedge.finance"> <button className="btn bttn">
-          Buy Now
-          <img style={{ marginLeft: 10 }} src={arrow} />
-        </button></a>
+          <a href="https://pool.orbitedge.finance">
+            {" "}
+            <button className="btn bttn">
+              Buy Now
+              <img style={{ marginLeft: 10 }} src={arrow} />
+            </button>
+          </a>
         </div>
         <div className="sub1-child2">
-          <img src={hand} />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/lELLEsM0TSY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     );

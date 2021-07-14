@@ -14,7 +14,7 @@ class header extends Component {
         <div>
           <img src={logo} />
         </div>
-        
+        <span></span>
       </div>
     );
   }

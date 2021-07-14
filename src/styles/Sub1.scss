@@ -1,7 +1,7 @@
 .sub1 {
   display: flex;
   justify-content: center;
-  //   align-items: center;
+  align-items: center;
   padding: 70px 0px;
   padding-left: 60px;
   .sub1-child1 {
@@ -26,10 +26,5 @@
     span {
       font-weight: 700;
     }
-  }
-  .sub1-child2 {
-    position: relative;
-    right: -14px;
-    top: -111px;
   }
 }
