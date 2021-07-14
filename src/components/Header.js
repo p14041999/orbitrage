@@ -14,10 +14,7 @@ class header extends Component {
         <div>
           <img src={logo} />
         </div>
-        <button className="btn bttn">
-          Buy Now
-          <img style={{ marginLeft: 10 }} src={arrow} />
-        </button>
+        
       </div>
     );
   }

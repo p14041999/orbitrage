@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import hand from "../../assets/Hand.svg";
+import arrow from "../../assets/arrow.svg";
 import "../../styles/Sub1.scss";
 class sub1 extends Component {
   render() {
@@ -15,7 +16,10 @@ class sub1 extends Component {
             arbitrage bot is capable to find out price difference and execute a
             trade within 10ms.
           </p>
-          <button className="btn sub1-btn">Download Whitepaper Now</button>
+          <a href="https://pool.orbitedge.finance"> <button className="btn bttn">
+          Buy Now
+          <img style={{ marginLeft: 10 }} src={arrow} />
+        </button></a>
         </div>
         <div className="sub1-child2">
           <img src={hand} />
