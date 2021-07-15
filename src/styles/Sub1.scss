@@ -1,6 +1,6 @@
 .sub1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 70px 0px;
   padding-left: 60px;
@@ -26,5 +26,37 @@
     span {
       font-weight: 700;
     }
+  }
+}
+.social-group{
+  margin-top: 40px;
+  .btn-flex{
+    display: flex;
+    align-items: center;
+  }
+  p{
+    text-transform: uppercase;
+  }
+}
+.social-btn {
+  margin-left:20px;
+  // display: flex;
+  // align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  height: 60px;
+  cursor: pointer;
+  // p{
+  //   margin-left:10px;
+  // }
+  // height: 0px;
+  //   background-color: black;
+}
+.social-btn:first-child{
+  margin-left:0;
+}
+@media(max-width:900px){
+  .sub1{
+    justify-content:center;
   }
 }

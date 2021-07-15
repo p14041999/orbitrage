@@ -10,7 +10,9 @@ body {
 
   background: #edeef2;
 }
-
+a{
+  text-decoration: none;
+}
 .btn {
   display: inline-block;
   padding: 15px 40px;
@@ -29,6 +31,12 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.text-grad{
+  display: inline-block;
+  background: linear-gradient(334.07deg, #e1b780 8.11%, #717b8a 83.07%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .temp {
   margin: 100px;
   height: 100px;
@@ -36,6 +44,11 @@ body {
 
 .shadow {
   box-shadow: -3px -3px 7px white, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  /* border-radius: 40px 40px; */
+  border: none;
+}
+.shadow:focus {
+  box-shadow: 3px 3px 7px white inset, -3px -3px 5px rgba(94, 104, 121, 0.288) inset;
   /* border-radius: 40px 40px; */
   border: none;
 }

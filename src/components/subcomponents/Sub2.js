@@ -19,10 +19,8 @@ class Sub2 extends Component {
             sever and a optimized algorithm, which works really fast.
           </p>
           <p>
-            Orbit Edge uses Binance smart chain based exchanges to as many of
-            the tokens are being launched in binance smart chain. you can go
-            through our smart contracts for more in depth technical information
-            and understanding.
+          Orbit Edge can calculate the Price difference of all Tokens from all
+           the swaps available in Binance Smart Chain and can execute a profitable trade.
           </p>
           <p>
             Orbit Edge creates its monopoly lowering its execution time. Its

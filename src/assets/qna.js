@@ -21,19 +21,19 @@ let qna = [
     ques: "When the pool will be started?",
     ans: `The Pool will be starting on 14/07/21 at 12:00 for initial target of 1000 BNB.`,
   },
-  {
-    ques: "What are the requirements ?",
-    ans: `1.You need to invest Minimum 1 BNB to the pool.
-    2. For this you would need to keep at least 1.001 BNB BEP-20(Smart Chain) token in your trust wallet or metamask wallet.
-    3. There are 2 ways to stake BNB to the pool and get the "OEDGE" token
-    (i) you can send BNB directly to the contract address.
-    (ii) or you can browse "www.orbitedge.finance" from your trust wallet Dapps section or Metamask Browser . You can connect your wallet and can send BNB to the pool to get same amount of "OEDGE" token in your wallet.
-    (iii) If the said Pool do not shoot the Targeted numbers of 1000 BNB within the stipulated time till 24th. July'2021 , the token would be burned and BNB deposited by you would be refunded to your wallet from where you've sent it simultaneously.`,
-  },
-  {
-    ques: "Where I'll get LP tokens?",
-    ans: `To view OEDGE LP tokens in your wallet you need to add the contract address to your wallet.`,
-  },
+  // {
+  //   ques: "What are the requirements ?",
+  //   ans: `1.You need to invest Minimum 1 BNB to the pool.
+  //   2. For this you would need to keep at least 1.001 BNB BEP-20(Smart Chain) token in your trust wallet or metamask wallet.
+  //   3. There are 2 ways to stake BNB to the pool and get the "OEDGE" token
+  //   (i) you can send BNB directly to the contract address.
+  //   (ii) or you can browse "www.orbitedge.finance" from your trust wallet Dapps section or Metamask Browser . You can connect your wallet and can send BNB to the pool to get same amount of "OEDGE" token in your wallet.
+  //   (iii) If the said Pool do not shoot the Targeted numbers of 1000 BNB within the stipulated time till 24th. July'2021 , the token would be burned and BNB deposited by you would be refunded to your wallet from where you've sent it simultaneously.`,
+  // },
+  // {
+  //   ques: "Where I'll get LP tokens?",
+  //   ans: `To view OEDGE LP tokens in your wallet you need to add the contract address to your wallet.`,
+  // },
   {
     ques: "Why 90 days waiting ?",
     ans: `You must stake the BNB for minimum 90 days to get the adequate profit.
