@@ -51,7 +51,7 @@ class sub1 extends Component {
           <iframe
             width="750"
             height="450"
-            src="https://www.youtube.com/embed/lELLEsM0TSY?autoplay=1"
+            src="https://www.youtube.com/embed/lELLEsM0TSY?autoplay=1&mute=1"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
