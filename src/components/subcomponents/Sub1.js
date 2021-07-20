@@ -49,8 +49,8 @@ class sub1 extends Component {
         </div>
         <div className="sub1-child2">
           <iframe
-            width="750"
-            height="450"
+            width="100%"
+            height="auto"
             src="https://www.youtube.com/embed/lELLEsM0TSY?autoplay=1&mute=1"
             title="YouTube video player"
             frameborder="0"
